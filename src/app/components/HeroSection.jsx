@@ -14,7 +14,7 @@ const HeroSection = () => {
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 1 }}
                 className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
             >
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
@@ -25,13 +25,13 @@ const HeroSection = () => {
                 <TypeAnimation
                     sequence={[
                         "FEDERICO",
-                        2000,
+                        1000,
                         "OSANDÓN",
-                        2000,
+                        1000,
                         "Web Developer",
-                        2000,
+                        1000,
                         "Fullstack",
-                        2000,
+                        1000,
                         // "UI/UX Designer",
                         // 1000,
                     ]}
